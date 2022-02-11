@@ -35,16 +35,21 @@ function App() {
       name: "React Router Dom",
       text: "react-router-dom",
       img: "https://res.cloudinary.com/practicaldev/image/fetch/s--bvQtwOo5--/c_imagga_scale,f_auto,fl_progressive,h_500,q_auto,w_1000/https://reacttraining.com/images/blog/reach-react-router-future.png",
-      bg: '#1D1D1D',
       isChoosen: false,
     },
     {
       name: "Chakra",
       text: "@chakra-ui/react @emotion/react@^11 @emotion/styled@^11 framer-motion@^5",
       img: "https://avatars.githubusercontent.com/u/54212428?s=280&v=4",
-      className: "p-0",
       isChoosen: false,
-    }
+    },
+    {
+      name: "Font Awesome",
+      text: "--save @fortawesome/fontawesome-svg-core@next --save @fortawesome/free-solid-svg-icons@next --save @fortawesome/free-regular-svg-icons@next ",
+      img: "https://seeklogo.com/images/F/font-awesome-logo-3010FE2434-seeklogo.com.png",
+      isChoosen: false,
+    },
+
   ];
 
   const [npm, setNpm] = useState(lib);
