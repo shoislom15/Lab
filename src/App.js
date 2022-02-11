@@ -81,7 +81,7 @@ function App() {
         <div className="row">
           {npm.map((e, i) => {
             return <>
-              <div className="col-lg-3 col-md-4 col-6 px-3 py-1">
+              <div className="col-lg-3 col-md-4 col-sm-6 col-xs-12 px-3 py-1">
                 <button onClick={() => {
                   setN(i);
                 }} key={e.toString()} className="btn w-100 bg-blue text-dark fw-bold d-flex p-2 rounded-15 h-100 d-flex align-items-center">
@@ -108,7 +108,6 @@ function App() {
                 <BsTrash />
               </button>
             </div>
-
           </div>
         </div>
 
