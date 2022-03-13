@@ -72,7 +72,7 @@ function ToolPage() {
             );
           })}
           <div className="row copy w-100 d-flex align-items-center justify-content-center p-0">
-            <div className="col-lg-4 col-md-5 col-sm-6 col-xs-12 box d-flex align-items-center m-0 p-3 px-4">
+            <div className="col-lg-4 col-md-5 col-sm-6 col-xs-12 box d-flex align-items-center justify-content-center m-0 p-3 px-4">
               <button
                 className="btn fw-bold rounded-circle trash bg-white"
                 onClick={() => {
